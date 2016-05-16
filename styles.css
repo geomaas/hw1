@@ -1,5 +1,35 @@
-body {
-  background-color: blue;
-  color: red;
+#header {
+  background-color: #192F6B;
+  color: #CA001A;
   align: center;
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+body {
+  background-color: #A2AAAD;
+}
+h1 {
+  text-align: center;
+  font-family: Freshman, sans-serif;
+  text-decoration-color: white;
+  
+}
+div {
+  position: fixed;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#header ul li {
+  display: block;
+}
+a:visited {
+  color: #A2AAAD
 }
