@@ -8,22 +8,25 @@
 body {
   background-color: #A2AAAD;
 }
+#nav {
+  float: left;
+  background-color: #CA001A;
+  height: 706px;
+}
 #nav li a {
   color: #192F6B;
   display: block;
   margin: 20px;
-  border: 1px solid;
+  text-decoration: none;
+
 }
 #nav li a:visited {
   color: #A2AAAD
 }
-#nav li a:hover {
-  background-color: color:#192F6B;
-}
-#nav {
-  float: left;
-  background-color: #CA001A;
-  height: 720px;
+#nav li:hover {
+  display: flex;
+  background-color:#192F6B;
+
 }
 ul {
   list-style-type: none;
@@ -37,7 +40,7 @@ li a {
   padding: inherit;
 }
 #content {
-
+  border: 0px;
 
 }
 #footer {
